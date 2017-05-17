@@ -1,0 +1,82 @@
+{
+    "android" : {
+        "iap" : {
+            "enabled" : true,
+            "key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhghye\/mI\/+ZzOcHbYjirYpgPDFIQcy0Ih6ssFNr7\/7aWXnrt9BQoHvEcGwNvQbfZn5qJGKiCidL8YLkNFl1n1AefYt0pAnfxrEe\/wpskrktzXf067AxL8qIvbdQKXZLrxYEBkpTsJYlE1e3gxs\/BlpmRVr1BNB3Uj7fKjzVsR91V\/netzPq\/qipMCyjvCZf9c1E1JHCPL5t\/L50o2by\/sXRWG2fJ5fz6hn5D187hvDYEnsnXomybycbOTqg3Q\/fJPW0msqo2KanOicHqtFPWAuDtMcIPHytNrzswvC6cMDtapmL0LTPauxt4KngMwwEW3nK946vtuaDG1gRu0qYRbwIDAQAB",
+            "items" : {
+                "noads" : {
+                    "id" : "no_ads.1",
+                    "type" : "non_consumable"
+                }
+            }
+        },
+        "AdMob" : {
+            "enabled" : true,
+            "test" : false,
+            "ads" : {
+                "banner1" : {
+                    "id" : "ca-app-pub-3000430402193614\/5522042089",
+                    "type" : "banner",
+                    "alignment" : "bottom",
+                    "width" : 0,
+                    "height" : 0
+                },
+                "full" : {
+                    "id" : "ca-app-pub-3000430402193614\/7790204088",
+                    "type" : "interstitial",
+                    "alignment" : "bottom",
+                    "width" : 0,
+                    "height" : 0
+                }
+            }
+        },
+        "sdkboxplay" : {
+            "enabled" : true,
+            "debug" : false,
+            "connect_on_start" : false,
+            "leaderboards" : [
+                {
+                    "id" : "CgkIluzL38MCEAIQAQ",
+                    "name" : "boardnormal"
+                }
+            ],
+            "achievements" : [
+                {
+                    "id" : "CgkIluzL38MCEAIQAg",
+                    "name" : "new",
+                    "incremental" : false
+                },
+                {
+                    "id" : "CgkIluzL38MCEAIQAw",
+                    "name" : "10",
+                    "incremental" : false
+                },
+                {
+                    "id" : "CgkIluzL38MCEAIQBA",
+                    "name" : "20",
+                    "incremental" : false
+                },
+                {
+                    "id" : "CgkIluzL38MCEAIQBQ",
+                    "name" : "30",
+                    "incremental" : false
+                },
+                {
+                    "id" : "CgkIluzL38MCEAIQBg",
+                    "name" : "50",
+                    "incremental" : false
+                }
+            ]
+        },
+        "Chartboost" : {
+            "enabled" : true,
+            "id" : "57844fac43150f299a8000fa",
+            "signature" : "c59fd46cd30e378d5fcecc60a272f98fe6e16d01",
+            "ads" : {
+                "inters" : {
+                    "type" : "interstitial"
+                }
+            }
+        }
+    }
+}
